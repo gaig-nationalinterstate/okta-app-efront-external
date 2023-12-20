@@ -1,10 +1,4 @@
 terraform {
-  cloud {
-    organization = "natl-vsphere"
-    workspaces {
-      name = "okta-app-efront-external-dev"
-    }
-  }
   
   required_providers {
     okta = {
